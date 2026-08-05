@@ -16,13 +16,13 @@ Modular Architecture: Cleanly separated design featuring a powerful orchestrator
 To set up and run VOID AI locally on your system, follow these steps:
 
  1.Clone the repository:
- Bash
+ 
 
     git clone https://github.com/meso78/void-ai.git
     cd void-ai
 
 2.Setup Python Virtual Environment:
-Bash
+
 
     python3 -m venv venv
     source venv/bin/activate
@@ -30,11 +30,11 @@ Bash
 
 3.Install and Run Ollama:
 Make sure Ollama is installed on your local machine, then pull your preferred lightweight model:
-Bash
+
 
     ollama pull phi3
 
 4.Run the Agent:
-Bash
+
 
     python3 main.py
